@@ -6,3 +6,9 @@ body {
   text-decoration-style: wavy;
   text-emphasis-color: blue;
 }
+.labs {
+  border: black solid 1px;
+}
+#lab-titles {
+  indent: 10px;
+}
