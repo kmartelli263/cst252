@@ -1,0 +1,8 @@
+body {
+  background-color: grey;
+}
+.title {
+  text-align: center;
+  text-decoration-style: wavy;
+  text-emphasis-color: blue;
+}
