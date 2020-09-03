@@ -7,8 +7,11 @@ body {
   text-emphasis-color: blue;
 }
 .labs {
-  border: black solid 1px;
+  border: black solid 5px;
+  width: 50%;
 }
 #lab-titles {
-  indent: 10px;
+padding-left: 10px;
+font-size: 16px;
+font-weight: bold;
 }
