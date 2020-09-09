@@ -4,11 +4,12 @@ h1 {
   color: green;
 }
 h2 {
-
+  color: blue;
 }
 p {
   font-size: 14px;
   font-family: sans-serif;
+  line-height: 2;
 }
 body {
   background-color: gray;
