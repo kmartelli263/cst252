@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+}
+.js-code {
+  border-style: solid
+  border-color: #ff6818
+  padding-bottom: 15px;
+}
+.img {
+  border-style: solid
+  border-color: #ff6818
+  padding-bottom: 15px;
+}
+h1 {
+  color: #ff6818;
+}
+
+h2 {
+  color: #ff6818;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  color: #00d782
+}
+p {
+  font-size: 24px;
+}
+.js-code {
+  border-style: solid
+  border-color: #ff6818
+  padding-bottom: 15px;
+}
