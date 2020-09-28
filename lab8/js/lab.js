@@ -10,6 +10,10 @@ function thirdThing(test) {
     console.log(test + ": This is the third thing.<br>")
 }
 
+function firstThing() {
+  console.log("test1");
+  document.writeln("test1");
+}
 firstThing("TEST 1");
 secondThing("TEST 1");
 thirdThing("TEST 1");
