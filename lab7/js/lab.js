@@ -12,7 +12,7 @@
     fix it.");
     console.log("userName =", userName);
     // split string to Array
-    var nameArray = userName.split('Kevin');
+    var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
     // sort the array
     var nameArraySort = nameArray.sort();
