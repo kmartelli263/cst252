@@ -4,38 +4,50 @@
  *  License: Public Domain
  *
  *  JavaScript created with the help of Wes Modes screenshot of code on ilearn.
+ *  Used some of Tyler's code for my updated JaveScript
  */
 
-function thirdThing(test) {
-    console.log(test + ": This is the third thing.<br>")
-}
+//Test 1 - call/list
+firstthing();
+secondthing();
+thirdthing();
 
-function firstThing() {
-  console.log("test1");
-  document.writeln("test1");
-}
-firstThing("TEST 1");
-secondThing("TEST 1");
-thirdThing("TEST 1");
+// console.log(""); //linebreak
+// document.writeln(""); //linebreak
 
-//test 2 - in order
+// Test 2 - timeout
 setTimeout(function() {
-    firstThing("TEST 2");
-}, 0);
-setTimeout(function() {
-    secondThing("TEST 2");
-}, 0);
-setTimeout(function() {
-    thirdThing("TEST 2");
-}, 0);
-
-// test 3 - order is 2, 3, 1
-setTimeout(function() {
-    firstThing("TEST 3");
-}, 3000);
-setTimeout(function() {
-    secondThing("TEST 3");
+  console.log("Test 2, firstthing");
+  document.writeln("Test 2, firstthing");
 }, 1000);
+
 setTimeout(function() {
-    thirdThing("TEST 3");
-}, 2000);
+  console.log("Test 2, secondthing");
+  document.writeln("Test 2, secondthing");
+}, 3000);
+
+setTimeout(function() {
+  console.log("Test 2, thirdthing");
+  document.writeln("Test 2, thirdthing");
+}, 5000);
+
+// setTimeout(function() {
+//  console.log("");
+//  document.writeln("");
+// }, 5000); //linebreak
+
+// Test 3 - change order via timer
+setTimeout(function() {
+  console.log("Test 3, firstthing");
+  document.writeln("Test 3, firstthing");
+}, 15000);
+
+setTimeout(function() {
+  console.log("Test 3, secondthing");
+  document.writeln("Test 3, secondthing");
+}, 8000);
+
+setTimeout(function() {
+  console.log("Test 3, thirdthing");
+  document.writeln("Test 3, thirdthing");
+}, 7000);
