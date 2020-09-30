@@ -30,5 +30,5 @@
   document.body.appendChild(new2El)
 
 // CSS
-  document.getElementById ("p").style.fontSize = "large";
-  document.getElementById ("content").style.backgroundColor = "blue";
+  new1El.style.color = "blue";
+  new2El.style.border = "dashed";
