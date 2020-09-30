@@ -5,11 +5,30 @@
  */
 
  // Finding an output and defining a variable
- var outputE1 =
-    document.getElementByID("div");
- var new1El =
-    document.createElement("p")
- var new2El =
-    document.createElement("head")
- targetE1.appendChild(new1El);
- targetE1.appendChild(new2El);
+
+  var outputEl =
+    document.getElementById("output");
+
+// First Element
+
+  var new1El =
+    document.createElement("p");
+
+      new1El.innerHTML = "I am learning things, wow!";
+
+// Second Element
+
+  var new2El =
+    document.createElement("p");
+
+      new2El.innerHTML = "I learned how to do another thing hehe";
+
+// Appends
+
+  document.body.appendChild(new1El)
+
+  document.body.appendChild(new2El)
+
+// CSS
+  document.getElementById ("p").style.fontSize = "large";
+  document.getElementById ("content").style.backgroundColor = "blue";
