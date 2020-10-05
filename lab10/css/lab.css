@@ -1,6 +1,7 @@
 h1 {
-  color: #FE3600;
+  color: #2baab5;
   text-align: center;
+  text-shadow: 1px 1px;
 }
 
 h2 {
@@ -9,10 +10,11 @@ h2 {
 
 
 .text-infront-button {
-  font-style: italic;
+  color: #E7E7E7;
+  font-style: serif;
   font-size: 20px;
   border-style: solid;
-  width: 25%;
+  width: 30%;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -27,8 +29,4 @@ h2 {
   width: 10%;
   height: 20%;
   margin-top: 5px;
-}
-
-.content p {
-
 }
