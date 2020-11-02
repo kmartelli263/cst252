@@ -1,0 +1,43 @@
+.row {
+  display: block;
+  column-count: 3;
+  border-style: solid;
+}
+
+.row p {
+  padding-left: 15px;
+}
+
+.row h2 {
+  text-decoration-color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.column-a {
+  margin-top: -15px;
+}
+
+#output {
+  border-style: solid;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 10%;
+  margin-top: 20px;
+  display: block;
+}
+
+body {
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: gray;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
