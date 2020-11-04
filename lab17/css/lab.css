@@ -1,0 +1,38 @@
+body {
+  background: gray;
+  color: black;
+  font-size: 110%;
+}
+
+a {
+  color: #364F1A;
+}
+
+#content {
+  padding: 40px;
+  margin: 30px;
+  font-family: sans-serif;
+  line-height: 31px;
+  background-color: #03bafc;
+}
+
+#output {
+  padding: 10px;
+  border: double 3px black;
+}
+
+img {
+  margin: auto;
+  margin: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  align: centered;
+}
