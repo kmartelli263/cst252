@@ -1,0 +1,39 @@
+.row {
+  display: block;
+  column-count: 3;
+}
+
+.row p {
+  padding-left: 15px;
+
+}
+
+.row h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.column-a {
+  margin-top: -15px;
+}
+
+
+body {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container-fluid {
+  background-color: #43bf7f;
+
+}
+
+.container {
+  background-color: #1F2833;
+  color: white;
+
+}
