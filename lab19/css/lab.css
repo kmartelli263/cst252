@@ -1,0 +1,38 @@
+body {
+  background-color: #789E9E;
+}
+
+#content {
+  background-color: #B7D8D6;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#content h1 {
+  text-align: center;
+}
+
+h1 {
+  color: #FE615A;
+}
+
+h2 {
+  color: #EEF3DB;
+  text-shadow: 2px 2px #789E9E;
+}
+
+p {
+  color: #4D6466;
+}
+
+img {
+  width: 225px;
+  height: 300px;
+  flex:auto;
+}
+
+#output {
+}
