@@ -2,7 +2,7 @@
 * Author: Kevin Martelli <kmartelli@csumb.edu>
 * Created: 18 November 2020
 * License: Public Domain
-* Credit: Wes Modes for helping us setup the JavaScript during their lecture. 
+* Credit: Wes Modes for helping us setup the JavaScript during their lecture.
 */
 
 URL = "https://api.nasa.gov/planetary/apod"

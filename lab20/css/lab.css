@@ -26,3 +26,13 @@ h2 {
 p {
   font-size: 20px;
 }
+#apod img {
+  height: 680px;
+  width: auto;
+}
+#date {
+  font-size: 20px;
+}
+#caption {
+  font-size: 20px;
+}
